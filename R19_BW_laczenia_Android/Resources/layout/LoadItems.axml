@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout1">
+    <Button
+        android:text="OK"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="100.0dp"
+        android:layout_height="50.0dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="ImportujPrzedmioty"
+        android:id="@+id/btnOK" />
+    <Button
+        android:text="Wróć"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="100.0dp"
+        android:layout_height="50.0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnOK"
+        android:onClick="Wroc_Click"
+        android:id="@+id/btnCofnij" />
+    <TextView
+        android:text="Importujesz przedmioty typu:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="5.0dp"
+        android:gravity="center"
+        android:id="@+id/textImportTyp" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50.0dp"
+        android:layout_below="@+id/textImportTyp"
+        android:id="@+id/textImportPrzedm" />
+</RelativeLayout>

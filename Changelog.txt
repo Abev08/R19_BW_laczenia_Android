@@ -1,0 +1,19 @@
+﻿Version 0.03
+	- Poprawiono nazwę aplikacji,
+	- Dodano możliwość zapisu do pliku tekstowego przeprowadzonych łączeń,
+	- Dodano ikonę aplikacji,
+	- Poprawiono cofanie przeprowadzonych łączeń,
+	- Dodano tabele łączeń,
+	- Bugfix: Naprawiono crash przy dodawaniu drugiego (i kolejnych) przedmiotów do łączenia bez zaznaczenia przedmiotu.
+
+Version 0.02
+	- Poprawiono nazwę aplikacji i pakietu,
+	- Poprawiono literówki,
+	- Wyłączono możliwość dodawania pustego przedmiotu (brak prefiksu, bazy i sufiksu),
+	- Zmieniono długość wyświetlania wszystkich komunikatów z "Long" na "Short",
+	- Dodano opcję importowania przedmiotów z listy,
+
+Version 0.01
+	- Pierwsza działająca kompilacja,
+	- Możliwość dodawania przedmiotów do łączenia,
+	- Możliwość łączenia przedmiotów.

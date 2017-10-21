@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout1">
+    <TextView
+        android:text="Pref:"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="70.0dp"
+        android:layout_height="50.0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="5.0dp"
+        android:id="@+id/textPref" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50.0dp"
+        android:layout_toRightOf="@id/textPref"
+        android:layout_alignTop="@id/textPref"
+        android:id="@+id/spinnerPref" />
+    <TextView
+        android:text="Baza:"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="70.0dp"
+        android:layout_height="50.0dp"
+        android:layout_below="@id/textPref"
+        android:padding="5.0dp"
+        android:id="@+id/textBaza" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50.0dp"
+        android:layout_toRightOf="@id/textBaza"
+        android:layout_alignTop="@id/textBaza"
+        android:id="@+id/spinnerBaza" />
+    <TextView
+        android:text="Suf:"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="70.0dp"
+        android:layout_height="50.0dp"
+        android:layout_below="@id/textBaza"
+        android:padding="5.0dp"
+        android:id="@+id/textSuf" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50.0dp"
+        android:layout_toRightOf="@id/textSuf"
+        android:layout_alignTop="@id/textSuf"
+        android:id="@+id/spinnerSuf" />
+    <Button
+        android:text="Dodaj nowy"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="150.0dp"
+        android:layout_height="50.0dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="DodajPrzedmiot"
+        android:id="@+id/btnOK" />
+    <Button
+        android:text="Wróć"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="150.0dp"
+        android:layout_height="50.0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnOK"
+        android:onClick="Wroc_Click"
+        android:id="@+id/btnWroc2" />
+</RelativeLayout>

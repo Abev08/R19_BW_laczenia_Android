@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout1">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50.0dp"
+        android:layout_marginRight="75.0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:entries="@array/typyPrzedmiotow"
+        android:id="@+id/itemSelector" />
+    <Button
+        android:text="Opcje"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="75.0dp"
+        android:layout_height="50.0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="Opcje_Click"
+        android:id="@+id/btnOpcje" />
+    <Button
+        android:text="Dodaj"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="100.0dp"
+        android:layout_height="50.0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="Dodaj_Click"
+        android:id="@+id/btnDodaj" />
+    <Button
+        android:text="Cofnij"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="100.0dp"
+        android:layout_height="50.0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnDodaj"
+        android:onClick="Cofnij_Click"
+        android:id="@+id/btnCofnij" />
+    <Button
+        android:text="Zapisz"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="100.0dp"
+        android:layout_height="50.0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnCofnij"
+        android:onClick="Zapisz_Click"
+        android:id="@+id/btnZapisz" />
+    <TextView
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemSelector"
+        android:padding="5.0dp"
+        android:id="@+id/textWynik" />
+</RelativeLayout>

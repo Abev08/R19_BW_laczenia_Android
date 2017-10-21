@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="typyPrzedmiotow">
+    <item>Hełm</item>
+    <item>Zbroja</item>
+    <item>Spodnie</item>
+    <item>Pierścień</item>
+    <item>Amulet</item>
+    <item>Biała 1h</item>
+    <item>Biała 2h</item>
+    <item>Palna 1h</item>
+    <item>Palna 2h</item>
+    <item>Dystans</item>
+  </string-array>
+</resources>
