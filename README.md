@@ -8,7 +8,7 @@ Instalator aplikacji nazywa się [R19BWLaczenia.R19BWLaczenia.apk](https://githu
 Zmiana nazwy pliku instalacyjnego na niektórych urządzeniach powoduje niepoprawne działanie instalatora!  
    
    
-## Funkcje programu
+## Funkcje aplikacji
  - Możliwość łączenia każdego dostępnego w grze typu przedmiotu,
  - Możliwość łączenia przedmiotów z prefiksami i sufiksami lub łączenia samych prefiksów / baz / sufiksów,
  - Możliwość cofnięcia przeprowadzonych łączeń,
@@ -21,5 +21,5 @@ Zmiana nazwy pliku instalacyjnego na niektórych urządzeniach powoduje niepopra
    
    
 Aplikacja współpracuje z systemem Android 4.0 lub nowszym.  
-Uprawnienia aplikacji do "modyfikowanie i usuwanie zawartości karty SD" i "odczytywanie zawartości karty SD" wymagane są do przeprowadzenia zapisu przeprowadzonych łączeń do pliku.
-[Changelog](Changelog.txt). Proszę zgłaszać wszelkie znalezione błędy / sugestie dotyczące programu :)  
+Uprawnienia aplikacji do "modyfikowanie i usuwanie zawartości karty SD" i "odczytywanie zawartości karty SD" wymagane są do przeprowadzenia zapisu przeprowadzonych łączeń do pliku.  
+[Changelog](Changelog.txt). Proszę zgłaszać wszelkie znalezione błędy / sugestie dotyczące apki :)  
